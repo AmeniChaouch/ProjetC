@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="proasd" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/proasd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/proasd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="GRAPH.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GRAPH.h" />
+		<Unit filename="HOPPRIM.h" />
+		<Unit filename="HOPSDD.h" />
+		<Unit filename="LSTHOP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LSTHOP.h" />
+		<Unit filename="LSTPRIM.h" />
+		<Unit filename="LSTPTR.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LSTPTR.h" />
+		<Unit filename="LSTSDD.h" />
+		<Unit filename="LSTTAB.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LSTTAB.h" />
+		<Unit filename="PTRPRIM.h" />
+		<Unit filename="QTRPRIM.h" />
+		<Unit filename="QTRSDD.h" />
+		<Unit filename="QUARANT.h" />
+		<Unit filename="QUARANTAINE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="RESEAU.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="RESEAU.h" />
+		<Unit filename="dons_hop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dons_hop.h" />
+		<Unit filename="dons_hop_prim.h" />
+		<Unit filename="elt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="elt.h" />
+		<Unit filename="eltprim.h" />
+		<Unit filename="hopitaux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hopitauxprim.h" />
+		<Unit filename="hopitauxsdd.h" />
+		<Unit filename="hopiteaux.h" />
+		<Unit filename="lieu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lieu.h" />
+		<Unit filename="liste_don_hop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="liste_don_hop.h" />
+		<Unit filename="liste_don_hop_prim.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="patient.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="patient.h" />
+		<Unit filename="patientprim.h" />
+		<Unit filename="patientsdd.h" />
+		<Unit filename="quarant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="quarantaine.h" />
+		<Unit filename="quarantprim.h" />
+		<Unit filename="quarantsdd.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

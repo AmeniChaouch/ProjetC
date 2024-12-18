@@ -1,0 +1,6 @@
+#ifndef QTRSDD_H_INCLUDED
+#define QTRSDD_H_INCLUDED
+#include "QUARANT.h"
+
+
+#endif // QTRSDD_H_INCLUDED
